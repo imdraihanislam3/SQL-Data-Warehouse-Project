@@ -1,3 +1,8 @@
+*/
+Script Purpose : This Script creates a new database named "datawarehouse". The Script sets up 3 schemas 
+whithin the database :'bronze', 'silver' and 'gold'.
+*/
+
 -- Create Datebase "datawarehouse"
 
 Use master;
