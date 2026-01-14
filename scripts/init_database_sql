@@ -3,11 +3,12 @@ Script Purpose : This Script creates a new database named "datawarehouse". The S
 whithin the database :'bronze', 'silver' and 'gold'.
 */
 
+
 -- Create Datebase "datawarehouse"
 
-Use master;
+USE master;
 
-Create Database datawarehouse;
+CREATE DATABASE datawarehouse;
 
 -- Use Created Warehouse
 USE datawarehouse;
