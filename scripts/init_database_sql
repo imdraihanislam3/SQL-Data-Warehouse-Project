@@ -1,11 +1,14 @@
 -- Create Datebase "datawarehouse"
 
 Use master;
-GO
+
 Create Database datawarehouse;
-GO
+
+-- Use Created Warehouse
 USE datawarehouse;
-GO
+
+-- Create Schemas
+
 CREATE SCHEMA bronze;
 GO
 CREATE SCHEMA Silver;
